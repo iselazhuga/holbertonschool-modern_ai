@@ -19,12 +19,21 @@ def make_driver():
 
 
 def scroll_to_end(driver, scroll_pause):
-    """Scroll to the bottom until the page height stops growing."""
+    """Scroll to the bottom until the page height stops growing.
+
+    After each scroll, waits up to scroll_pause seconds for the page to
+    grow and moves on as soon as it does.
+    """
     last_height = driver.execute_script(HEIGHT)
     while True:
         driver.execute_script(BOTTOM)
-        time.sleep(scroll_pause)
-        new_height = driver.execute_script(HEIGHT)
+        new_height = last_height
+        deadline = time.time() + scroll_pause
+        while time.time() < deadline:
+            time.sleep(0.2)
+            new_height = driver.execute_script(HEIGHT)
+            if new_height > last_height:
+                break
         if new_height == last_height:
             break
         last_height = new_height
@@ -40,7 +49,9 @@ def scroll_and_scrape(url, scroll_pause=2.0):
     driver = make_driver()
     try:
         driver.get(url)
-        time.sleep(scroll_pause)
+        driver.implicitly_wait(10)
+        driver.find_element(CSS, "div.thumbnail")
+        driver.implicitly_wait(0)
         scroll_to_end(driver, scroll_pause)
         products = []
         seen = set()
