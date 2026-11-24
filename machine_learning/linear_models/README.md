@@ -16,3 +16,4 @@ This project covers linear models for regression and classification:
 | File | Description |
 | --- | --- |
 | `0-linear_regression.py` | Task 0: linear regression |
+| `1-regression_evaluation_metrics.py` | Task 1: MSE, RMSE, MAE and R squared |
