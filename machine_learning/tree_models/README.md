@@ -15,3 +15,4 @@ This project covers tree-based models for classification:
 | File | Description |
 | --- | --- |
 | `0-build.py` | Task 0: decision tree classifier |
+| `1-train.py` | Task 1: train a tree-based classifier |
