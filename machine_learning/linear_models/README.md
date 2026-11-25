@@ -20,3 +20,4 @@ This project covers linear models for regression and classification:
 | `2-ridge_regression.py` | Task 2: Ridge regression (L2 regularisation) |
 | `3-Lasso_regression.py` | Task 3: Lasso regression (L1 regularisation, feature selection) |
 | `4-shap.py` | Task 4: SHAP explainer and values |
+| `5-logisitc_regression.py` | Task 5: logistic regression classifier |
