@@ -21,3 +21,4 @@ This project covers linear models for regression and classification:
 | `3-Lasso_regression.py` | Task 3: Lasso regression (L1 regularisation, feature selection) |
 | `4-shap.py` | Task 4: SHAP explainer and values |
 | `5-logisitc_regression.py` | Task 5: logistic regression classifier |
+| `6-svm.py` | Task 6: SVM classifier with linear, poly or RBF kernel |
