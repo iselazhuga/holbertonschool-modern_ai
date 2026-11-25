@@ -16,3 +16,4 @@ This project covers tree-based models for classification:
 | --- | --- |
 | `0-build.py` | Task 0: decision tree classifier |
 | `1-train.py` | Task 1: train a tree-based classifier |
+| `2-draw.py` | Task 2: print the decision rules of a trained tree |
