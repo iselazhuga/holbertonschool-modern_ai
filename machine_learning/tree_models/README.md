@@ -19,3 +19,5 @@ This project covers tree-based models for classification:
 | `2-draw.py` | Task 2: print the decision rules of a trained tree |
 | `3-generate_predictions.py` | Task 3: predict class labels with a trained tree |
 | `4-evaluate.py` | Task 4: classification report (precision, recall, F1) |
+| `5-pre_pruning.py` | Task 5: grid search for pre-pruning hyperparameters |
+| `5-pre_pruning.py` | Task 5: grid search for pre-pruning hyperparameters |
