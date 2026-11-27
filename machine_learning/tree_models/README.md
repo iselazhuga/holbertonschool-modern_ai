@@ -24,3 +24,4 @@ This project covers tree-based models for classification:
 | `6-pruning_path.py` | Task 6: cost-complexity pruning path (ccp_alphas, impurities) |
 | `7-prune_decision_tree.py` | Task 7: train and evaluate trees for each ccp_alpha |
 | `8-best_ccp_alpha.py` | Task 8: choose the best ccp_alpha |
+| `10-feature_importance.py` | Task 10: random forest feature importances |
