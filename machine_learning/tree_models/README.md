@@ -21,3 +21,4 @@ This project covers tree-based models for classification:
 | `4-evaluate.py` | Task 4: classification report (precision, recall, F1) |
 | `5-pre_pruning.py` | Task 5: grid search for pre-pruning hyperparameters |
 | `5-pre_pruning.py` | Task 5: grid search for pre-pruning hyperparameters |
+| `6-pruning_path.py` | Task 6: cost-complexity pruning path (ccp_alphas, impurities) |
