@@ -26,3 +26,4 @@ This project covers tree-based models for classification:
 | `8-best_ccp_alpha.py` | Task 8: choose the best ccp_alpha |
 | `10-feature_importance.py` | Task 10: random forest feature importances |
 | `11-boosting.py` | Task 11: AdaBoost, Gradient Boosting, XGBoost and LightGBM classifiers |
+| `9-random_forest.py` | Task 9: random forest classifier |
