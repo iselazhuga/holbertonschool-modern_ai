@@ -22,3 +22,4 @@ This project covers tree-based models for classification:
 | `5-pre_pruning.py` | Task 5: grid search for pre-pruning hyperparameters |
 | `5-pre_pruning.py` | Task 5: grid search for pre-pruning hyperparameters |
 | `6-pruning_path.py` | Task 6: cost-complexity pruning path (ccp_alphas, impurities) |
+| `7-prune_decision_tree.py` | Task 7: train and evaluate trees for each ccp_alpha |
